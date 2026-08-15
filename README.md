@@ -247,35 +247,6 @@ Implemented NGINX ingress and routing infrastructure supporting independent tena
 
 ---
 
-# 🧠 Engineering Philosophy
-
-I care about more than making software work.
-
-```text
-                    ┌──────────────────┐
-                    │  Business Value  │
-                    └────────┬─────────┘
-                             │
-              ┌──────────────┴──────────────┐
-              ▼                             ▼
-      ┌───────────────┐             ┌───────────────┐
-      │  Reliability  │             │  Scalability  │
-      └───────┬───────┘             └───────┬───────┘
-              │                             │
-              └──────────────┬──────────────┘
-                             ▼
-                    ┌──────────────────┐
-                    │ Clean Architecture│
-                    └────────┬─────────┘
-                             │
-                    ┌────────▼────────┐
-                    │   Performance   │
-                    └────────┬────────┘
-                             │
-                    ┌────────▼────────┐
-                    │  Observability  │
-                    └─────────────────┘
-```
 
 ### My principles
 
@@ -298,18 +269,10 @@ I care about more than making software work.
 **Diploma in Full-Stack .NET Development**
 2022 – 2023 · Egypt
 
-### Assiut University
-
-**Bachelor's in Business Accounting**
-2016 – 2020 · Egypt
-
 ---
 
 # 🌍 Beyond Code
-
-I started my journey with a degree in **Business Accounting** and later transitioned into software engineering.
-
-That background shaped the way I approach engineering: I care about understanding the **business problem behind the technical problem** and building solutions that create measurable value.
+I care about understanding the **business problem behind the technical problem** and building solutions that create measurable value.
 
 I'm also a strong believer in **remote collaboration, continuous learning, and pragmatic engineering**.
 
@@ -345,13 +308,3 @@ I'm always interested in discussing:
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Animated GitHub contribution snake" />
 
 </div>
-'''
-
-path = Path("/mnt/data/README.md")
-path.write_text(readme, encoding="utf-8")
-print(path)
-print(f"{len(readme):,} characters")
-print("Animated elements included: typing headline, profile views, badges, contribution snake.")
-print("Note: the contribution-snake image is an external generated asset and may require the corresponding GitHub Action/repository setup to render reliably.")
-print("Download: sandbox:/mnt/data/README.md")
-print("DONE")
